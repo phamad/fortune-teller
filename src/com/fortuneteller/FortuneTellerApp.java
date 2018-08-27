@@ -14,32 +14,34 @@ public class FortuneTellerApp {
 		String lastName = input.nextLine ();
 		
 		System.out.println("What is your age?");
-		boolean personAge = input.nextInt();
+		int personAge = input.nextInt();
 		input.nextLine();
 		
 		System.out.println("What numbered month were you born?");
 		int personMonth = input.nextInt();
-		
-		
-		System.out.println("What is your favorite ROYGBIV color?");
-		String personColor = input.nextLine();
 		input.nextLine();
+		
+		System.out.println("What is your favorite ROYGBIV color? If you do not know what ROYGBIV is, ask for help.");
+		String personColor = input.nextLine();
+		
+		//if (personColor = "help")
+		//	System.out.println ("Red, Orange, Yellow, Green, Blue, Indigo, Violet")
 		
 		// firgure out how to put in Help to get a list of colors
 		
 		System.out.println("How many siblings do you currently have?");
 		String personSibling = input.nextLine();
+	
 		
-		if (personAge > 32)
-		// figure out conditional for retirement based on age
+	//	int personAge ( );
+       if (personAge <= 42); {
+           System.out.println(" 20 years"); {
+           }
+            }
+       if (personAge >= 42);
+        System.out.println(" 30 years");
 		
-		// figure out vacation home based on number of sibling 
-		
-		// figure out transporation based on color
-		
-		//figure out bank balance based on month born
-		
-		
+        System.out.println(firstName +" " + lastName +" "+"will retire in "+ personAge +" "+ "with " +personMonth +" "+ "in the bank, a vacation home in " + personSibling +" "+ "and travel by " + personColor);	
+        
 	}
-
 }
